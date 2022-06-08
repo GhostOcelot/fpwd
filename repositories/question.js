@@ -31,7 +31,7 @@ const makeQuestionRepository = fileName => {
     questions = JSON.stringify([...questions, newQuestion])
     await writeFile(fileName, questions, { encoding: 'utf-8' })
 
-    return questions
+    return newQuestion
   }
 
   const getAnswers = async ({ questionId }) => {
@@ -71,7 +71,7 @@ const makeQuestionRepository = fileName => {
     ])
     await writeFile(fileName, questions, { encoding: 'utf-8' })
 
-    return questions
+    return newAnswer
   }
 
   return {

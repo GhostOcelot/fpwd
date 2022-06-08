@@ -28,8 +28,8 @@ app.get('/questions/:questionId', async (req, res) => {
 })
 
 app.post('/questions', async (req, res) => {
-  const questions = await req.repositories.questionRepo.addQuestion(req.body)
-  res.send(questions)
+  const newQuestion = await req.repositories.questionRepo.addQuestion(req.body)
+  res.send(newQuestion)
 })
 
 app.get('/questions/:questionId/answers', async (req, res) => {
@@ -43,11 +43,11 @@ app.get('/questions/:questionId/answers/:answerId', async (req, res) => {
 })
 
 app.post('/questions/:questionId/answers', async (req, res) => {
-  const questions = await req.repositories.questionRepo.addAnswer(
+  const newAnswer = await req.repositories.questionRepo.addAnswer(
     req.params,
     req.body
   )
-  res.send(questions)
+  res.send(newAnswer)
 })
 
 app.listen(PORT, () => {

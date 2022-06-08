@@ -17,18 +17,6 @@
     ]
   },
   {
-    "id": "59f22a27-2d29-49f8-93a8-edb6591b3c6e",
-    "author": "Phillip K. Dick",
-    "summary": "The Man in the High Castle",
-    "answers": []
-  },
-  {
-    "id": "00a62e52-29f6-489f-9ba5-239f7bea93d6",
-    "author": "J.R.R. Tolkien",
-    "summary": "Fellowship of the Ring",
-    "answers": []
-  },
-  {
     "id": "00f3dd43-ae53-4430-8da1-b722e034c73d",
     "author": "Sarah Nickle",
     "summary": "Who let the dogs out?",
@@ -39,5 +27,11 @@
         "summary": "The cats, obviously."
       }
     ]
+  },
+  {
+    "id": "bca68cbe-e60b-42e6-bb59-c1f4e37d7aee",
+    "author": "Phillip K. Dick",
+    "summary": "Ubik",
+    "answers": []
   }
 ]
