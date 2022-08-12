@@ -53,3 +53,5 @@ app.post('/questions/:questionId/answers', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Responder app listening on port ${PORT}`)
 })
+
+console.log(1)
